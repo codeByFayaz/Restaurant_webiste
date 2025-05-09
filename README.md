@@ -1,6 +1,6 @@
-# Delicious Bites - Food Ordering Website
-# Delicious Bites is a simple and responsive food ordering website that allows users to explore various food categories, search for their favorite dishes, and place orders. 
-# The website offers a user-friendly interface with clear navigation and provides social media links for easy connection.
+Delicious Bites - Food Ordering Website
+Delicious Bites is a simple and responsive food ordering website that allows users to explore various food categories, search for their favorite dishes, and place orders. 
+The website offers a user-friendly interface with clear navigation and provides social media links for easy connection.
 
 # Key Features:
 Navigation Bar: Easy-to-use menu for quick access to the homepage, food categories, and contact page.
