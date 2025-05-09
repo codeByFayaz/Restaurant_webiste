@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Ensures proper rendering on all devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="/Restaurant.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Delicious Bites Logo">
+                    <img src="images/logo.png" alt="Delicious Bites Logo" class="img-responsive">
+                </a>
+            </div>
+            <div class="menu text-right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/categories">Categories</a></li>
+                    <li><a href="foods.html">Foods</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <!-- Food Search Section -->
+    <section class="food-search text-center">
+        <div class="container">
+            <form action="foods.html" method="POST">
+                <input type="search" name="search" placeholder="Search for Food..." required>
+                <input type="submit" name="submit" value="Search" class="btn btn-primary">
+            </form>
+        </div>
+    </section>
+
+    <!-- Food Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="text-center">Explore Our Categories</h2>
+
+            <a href="/category-pizza">
+                <div class="box-3 float-container">
+                    <img src="images/pizza.jpg" alt="Pizza" class="img-responsive img-curve">
+                    <h3 class="float-text text-white">Pizza</h3>
+                </div>
+            </a>
+
+            <a href="/category-burger">
+                <div class="box-3 float-container">
+                    <img src="images/burger.jpg" alt="Burger" class="img-responsive img-curve">
+                    <h3 class="float-text text-white">Burger</h3>
+                </div>
+            </a>
+
+            <a href="/category-momo">
+                <div class="box-3 float-container">
+                    <img src="images/menu-momo.jpg" alt="Momo" class="img-responsive img-curve" style="height: 425px;">
+                    <h3 class="float-text text-white">Momo</h3>
+                </div>
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <!-- Food Menu Section -->
+    <section class="food-menu">
+        <div class="container">
+            <h2 class="text-center">Our Food Menu</h2>
+
+            <!-- Food Item 1 -->
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-pizza.jpg" alt="Chicken Hawaiian Pizza" class="img-responsive img-curve">
+                </div>
+                <div class="food-menu-desc">
+                    <h4>Chicken Hawaiian Pizza</h4>
+                    <p class="food-price">$2.30</p>
+                    <p class="food-detail">Made with Italian sauce, chicken, and organic vegetables.</p>
+                    <br>
+                    <a href="/order" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <!-- Food Item 2 -->
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-burger.jpg" alt="Smoky Burger" class="img-responsive img-curve">
+                </div>
+                <div class="food-menu-desc">
+                    <h4>Smoky Burger</h4>
+                    <p class="food-price">$2.30</p>
+                    <p class="food-detail">Grilled to perfection with smoky flavors and fresh veggies.</p>
+                    <br>
+                    <a href="/order" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <!-- Food Item 3 -->
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-momo.jpg" alt="Chicken Steam Momo" class="img-responsive img-curve">
+                </div>
+                <div class="food-menu-desc">
+                    <h4>Chicken Steam Momo</h4>
+                    <p class="food-price">$2.30</p>
+                    <p class="food-detail">Steamed dumplings filled with seasoned chicken and herbs.</p>
+                    <br>
+                    <a href="/order" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+
+        <p class="text-center">
+            <a href="/foods">See All Foods</a>
+        </p>
+    </section>
+
+    <!-- Social Media Links -->
+    <section class="social">
+        <div class="container text-center">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="LinkedIn" width="48" height="48">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="Instagram" width="48" height="48">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://img.icons8.com/fluent/48/000000/twitter.png" alt="Twitter" width="48" height="48">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer">
+        <div class="container text-center">
+            <p>All rights reserved. Designed by <a href="https://github.com/codeByFayaz">Shaik Fayaz</a></p>
+        </div>
+    </section>
+
+</body>
+</html>
